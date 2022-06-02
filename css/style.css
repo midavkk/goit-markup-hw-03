@@ -40,6 +40,14 @@ body {
   color: var(--main-title-color);
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid red;
+}
+
 .hidden-title {
   width: 1px;
   height: 1px;
