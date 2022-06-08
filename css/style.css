@@ -185,7 +185,9 @@ img {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--hero-btn-color);
-  display: block;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
   margin: 0 auto;
 }
 
