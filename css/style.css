@@ -4,6 +4,7 @@
   --hero-title-color: #ffffff;
   --main-title-color: #212121;
   --main-text-color: #757575;
+  --tipical-margin: 30px;
 }
 
 /* основной цвет шрифта черный #212121 */
@@ -42,6 +43,8 @@ ol {
 
 button {
   cursor: pointer;
+  width: 200px;
+  height: 50px;
 }
 
 body {
@@ -50,13 +53,17 @@ body {
   color: var(--main-title-color);
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1200px;
+  margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
   background-color: tomato;
+  outline: 3px solid blue;
 }
 
 .hidden-title {
@@ -138,6 +145,9 @@ body {
 /* ------------hero------------ */
 .hero {
   background-color: #2f303a;
+  width: 1600px;
+  height: 600px;
+  margin-bottom: 94px;
 }
 
 .title {
@@ -147,6 +157,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 .section-title {
@@ -160,6 +171,9 @@ body {
   position: absolute;
   width: 696px;
   height: 120px;
+  padding-top: 200px;
+  margin: 0 auto;
+  margin-bottom: var(--tipical-margin);
 }
 
 .section-btn {
@@ -171,6 +185,8 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: var(--hero-btn-color);
+  display: block;
+  margin: 0 auto;
 }
 
 .section-btn:hover,
@@ -184,6 +200,7 @@ body {
 
 .about {
   background: #ffffff;
+  margin-bottom: 94px;
 }
 
 .about-title {
@@ -193,6 +210,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--main-title-color);
+  min-width: 270px;
+  height: 16px;
+  margin-bottom: 10px;
 }
 
 .about-text {
@@ -201,13 +221,28 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  min-width: 270px;
+  height: 75px;
+  margin-bottom: var(--tipical-margin);
 }
 
 /* ------------gallery------------ */
 
+.gallery {
+  margin-bottom: 94px;
+}
+
 /* ------------team------------ */
 .team {
   background-color: #f5f4fa;
+  width: 1600px;
+  height: 648px;
+  margin-bottom: 94px;
+}
+
+.team-item-card {
+  padding-top: var(--tipical-margin);
+  padding-bottom: var(--tipical-margin);
 }
 
 .team-item-title {
@@ -218,6 +253,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
+  margin-bottom: 10px;
 }
 
 .team-item-text {
