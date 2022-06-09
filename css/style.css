@@ -148,6 +148,7 @@ img {
   width: 1600px;
   height: 600px;
   margin-bottom: 94px;
+  text-align: center;
 }
 
 .title {
@@ -164,11 +165,9 @@ img {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--hero-title-color);
-  position: absolute;
   width: 696px;
   height: 120px;
   padding-top: 200px;
@@ -186,7 +185,7 @@ img {
   color: #ffffff;
   background-color: var(--hero-btn-color);
   display: inline-block;
-  width: 200px;
+  min-width: 200px;
   height: 50px;
   margin: 0 auto;
 }
@@ -277,6 +276,8 @@ img {
   letter-spacing: 0.03em;
   cursor: pointer;
   color: var(--main-title-color);
+  display: inline-block;
+  padding: 6px 22px;
 }
 
 .portfolio-btn:hover,
