@@ -84,10 +84,12 @@ img {
   color: var(--accent-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   position: absolute;
+  display: block;
   width: 145px;
-  height: 31px;
-  padding-left: 25px;
-  padding-top: 24px;
+}
+
+.header-link {
+  margin-right: 93px;
 }
 
 .logo-text {
@@ -101,6 +103,7 @@ img {
 /* ------------navigation------------ */
 
 .navigation {
+  list-style-type: none;
   font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -109,6 +112,16 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-title-color);
   padding: 32px 0;
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-nav {
@@ -119,7 +132,13 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  padding: 32px 0;
+  padding: 32px 25px;
+}
+
+.header-contacts {
+  list-style-type: none;
+  margin-left: auto;
+  display: flex;
 }
 
 .link:hover,
@@ -164,8 +183,10 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--hero-title-color);
+  text-align: center;
   width: 696px;
   padding-top: 200px;
+  margin: 0 auto;
   margin-bottom: var(--tipical-margin);
 }
 
@@ -200,7 +221,12 @@ img {
   padding-bottom: 94px;
 }
 
+.about-list {
+  list-style-type: none;
+}
+
 .about-title {
+
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
