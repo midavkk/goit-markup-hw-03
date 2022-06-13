@@ -257,11 +257,23 @@ img {
 .gallery-list {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.gallery-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin: 15px;
+}
+
+/* .gallery-list {
+  list-style-type: none;
+  display: flex;
 }
 
 .gallery-item:not(:last-child) {
-  margin-right: 50px;
-}
+  margin-right: 30px;
+} */
 
 /* ------------team------------ */
 .team {
@@ -274,6 +286,15 @@ img {
 
 .team-list {
   list-style-type: none;
+  display: flex;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px; 
+}
+
+.team-item {
+  width: calc((100% - 30px) / 4);
 }
 
 .team-item-card {
