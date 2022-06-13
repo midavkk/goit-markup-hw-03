@@ -226,7 +226,6 @@ img {
 }
 
 .about-title {
-
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -255,12 +254,26 @@ img {
   padding-bottom: 94px;
 }
 
+.gallery-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.gallery-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 /* ------------team------------ */
 .team {
   background-color: #f5f4fa;
   width: 1600px;
   height: 648px;
   margin-bottom: 94px;
+  margin: 0 auto;
+}
+
+.team-list {
+  list-style-type: none;
 }
 
 .team-item-card {
