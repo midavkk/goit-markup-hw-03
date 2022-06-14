@@ -266,15 +266,6 @@ img {
   margin: 15px;
 }
 
-/* .gallery-list {
-  list-style-type: none;
-  display: flex;
-}
-
-.gallery-item:not(:last-child) {
-  margin-right: 30px;
-} */
-
 /* ------------team------------ */
 .team {
   background-color: #f5f4fa;
@@ -340,6 +331,14 @@ img {
 .portfolio-btn:focus {
   background-color: var(--hero-btn-color);
   color: var(--hero-title-color);
+}
+
+.button-list {
+  list-style-type: none;
+}
+
+.benefits {
+  list-style-type: none;
 }
 
 .benefits-title {
