@@ -55,6 +55,8 @@ body {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .container {
@@ -354,10 +356,14 @@ img {
 }
 
 .benefits > .benefits-item {
-  outline: 1px solid teal;
+  outline: 2px solid teal;
   flex-basis: calc(100% / 3 - 30px);
   margin-left: var(--tipical-margin);
   margin-top: var(--tipical-margin);
+}
+
+.benefits-item * {
+  outline: 3px solid green;
 }
 
 .benefits-title {
@@ -368,12 +374,19 @@ img {
   color: var(--main-title-color);
 }
 
+.benefits-card {
+  margin-bottom: 20px;
+  /* display: block; */
+  /* max-height: 294px; */
+}
+
 .benefits-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  margin-top: 4px;
 }
 
 .current {
