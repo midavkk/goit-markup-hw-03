@@ -90,6 +90,7 @@ img {
 
 .header-link {
   margin-right: 93px;
+  display: flex;
 }
 
 .logo-text {
@@ -115,9 +116,10 @@ img {
   display: flex;
 }
 
-.header-container {
+.header .container {
   display: flex;
   align-items: center;
+  border: 1px solid #ECECEC
 }
 
 .navigation-item:not(:last-child) {
@@ -324,6 +326,9 @@ img {
   cursor: pointer;
   color: var(--main-title-color);
   display: inline-block;
+  width: 130px;
+  min-height: 38px;
+  border-radius: 4px;
   padding: 6px 22px;
 }
 
@@ -335,10 +340,24 @@ img {
 
 .button-list {
   list-style-type: none;
+  min-width: 611px;
+  display: flex;
+  padding-bottom: 34px;
 }
 
 .benefits {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: -30px;
+  margin: -30px;
+}
+
+.benefits > .benefits-item {
+  outline: 1px solid teal;
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: var(--tipical-margin);
+  margin-top: var(--tipical-margin);
 }
 
 .benefits-title {
