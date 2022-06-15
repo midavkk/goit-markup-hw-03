@@ -137,11 +137,13 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  display: flex;
   padding: 32px 25px;
 }
 
 .header-contacts {
   list-style-type: none;
+  display: flex;
   margin-left: auto;
   display: flex;
 }
@@ -208,6 +210,7 @@ img {
   min-width: 200px;
   height: 50px;
   margin: 0 auto;
+  margin-bottom: 200px;
 }
 
 .section-btn:hover,
@@ -350,6 +353,7 @@ img {
   list-style-type: none;
   min-width: 611px;
   display: flex;
+  justify-content: center;
   padding-bottom: 34px;
   /* margin: 0 auto; */
 }
@@ -408,6 +412,18 @@ img {
 
 .footer {
   background-color: #2f303a;
+  width: 1600px;
+  height: 252px;  
+}
+
+.footer > ..container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-content {
+  max-width: 231px;
+  min-height: 81px;
 }
 
 .footer-contacts-address {
