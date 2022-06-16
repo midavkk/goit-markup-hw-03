@@ -432,7 +432,7 @@ img {
   height: 252px;  
 }
 
-.footer > ..container {
+.footer > .container {
   display: flex;
   align-items: baseline;
 }
