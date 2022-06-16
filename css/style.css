@@ -268,7 +268,7 @@ img {
   margin-left: var(--tipical-margin);
 }
 
-.about-list > ..about-text {
+.about-list > .about-text {
   flex-basis: calc(100% / 4);
 }
 
