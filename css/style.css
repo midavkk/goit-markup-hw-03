@@ -43,8 +43,6 @@ ol {
 
 button {
   cursor: pointer;
-  width: 200px;
-  height: 50px;
 }
 
 body {
@@ -339,6 +337,10 @@ img {
 
 /* ------------portfolio------------ */
 
+.section {
+  padding: 94px 0;
+}
+
 .portfolio-btn {
   font-weight: 500;
   font-size: 16px;
@@ -348,13 +350,14 @@ img {
   cursor: pointer;
   color: var(--main-title-color);
   display: inline-block;
-  width: 130px;
+  min-width: 130px;
   min-height: 38px;
+  border: none;
   border-radius: 4px;
   padding: 6px 22px;
 }
 
-.portfolio-btn:not(:last-child) {
+.button-item:not(:last-child) {
   margin-right: 8px; 
 }
 
@@ -378,8 +381,7 @@ img {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  padding: -30px;
-  margin: -30px;
+  margin: 0 -30px 0 -30px;
 }
 
 .benefits > .benefits-item {
