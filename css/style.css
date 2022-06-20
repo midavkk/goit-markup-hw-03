@@ -231,7 +231,6 @@ img {
   /* outline: 3px solid grey; */
   list-style-type: none;
   margin-top: 94px;
-  margin-left: calc(-1 * var(--tipical-margin));
   padding: 0;
   display: flex;
   flex-wrap: nowrap;
@@ -287,8 +286,7 @@ img {
 /* ------------team------------ */
 .team {
   background-color: #f5f4fa;
-  margin-bottom: 94px;
-  margin: 0 auto;
+  padding: 94px 0;
 }
 
 .team-list {
@@ -302,6 +300,8 @@ img {
 
 .team-item {
   width: calc((100% - 30px) / 4);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-item-card {
@@ -344,8 +344,6 @@ img {
   cursor: pointer;
   color: var(--main-title-color);
   display: inline-block;
-  min-width: 130px;
-  min-height: 38px;
   border: none;
   border-radius: 4px;
   padding: 6px 22px;
@@ -355,7 +353,6 @@ img {
   margin-right: 8px; 
 }
 
-
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   background-color: var(--hero-btn-color);
@@ -364,7 +361,6 @@ img {
 
 .button-list {
   list-style-type: none;
-  min-width: 611px;
   display: flex;
   justify-content: center;
   padding-bottom: 34px;
@@ -424,18 +420,20 @@ img {
 
 .footer {
   background-color: #2f303a;
-  width: 1600px;
-  height: 252px;  
-}
-
-.footer > .container {
-  display: flex;
-  align-items: baseline;
+  padding: 60px 0;  
 }
 
 .footer-content {
   max-width: 231px;
   min-height: 81px;
+}
+
+.logo-box {
+  margin-bottom: 20px;
+}
+
+.footer-content-item {
+  list-style-type: none;
 }
 
 .footer-contacts-address {
