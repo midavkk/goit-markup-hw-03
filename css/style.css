@@ -214,6 +214,7 @@ img {
   color: #ffffff;
   background-color: var(--hero-btn-color);
   display: inline-block;
+  padding: 10px 32px;
   margin: 0 auto;
   border-radius: 4px;
 }
@@ -234,7 +235,6 @@ img {
 .about-list {
   /* outline: 3px solid grey; */
   list-style-type: none;
-  margin-top: 94px;
   padding: 0;
   display: flex;
   flex-wrap: nowrap;
@@ -249,9 +249,8 @@ img {
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
-  text-transform: uppercas
-  color: var(--main-title-color);х
-  margin-left: var(--tipical-margin);
+  text-transform: uppercase;
+  color: var(--main-title-color);
   margin-bottom: 10px;
 }
 
@@ -304,6 +303,7 @@ img {
 
 .team-item {
   width: calc((100% - 30px) / 4);
+  background-color: var(--hero-title-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
@@ -380,6 +380,7 @@ img {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin: 0 -30px 0 -30px;
 }
 
@@ -388,10 +389,17 @@ img {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: var(--tipical-margin);
   margin-top: var(--tipical-margin);
+  max-width: 370px;
 }
 
-.benefits-item * {
-  /* outline: 3px solid green; */
+.benefits-content {
+  background: var(--hero-title-color);
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  padding: 20px 24px;
+  max-width: 370px;
+  max-height: 110px;
 }
 
 .benefits-title {
@@ -407,10 +415,6 @@ img {
   /* margin-bottom: 20px; */
   /* display: block; */
   /* max-height: 294px; */
-}
-
-.benefits-content {
-  padding: 20px 24px;
 }
 
 .benefits-text {
