@@ -145,7 +145,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
   display: flex;
-  padding: 32px 25px;
+  padding: 32px 0;
 }
 
 .header-contacts {
@@ -153,6 +153,10 @@ img {
   display: flex;
   margin-left: auto;
   display: flex;
+}
+
+.header-contacts-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .link:hover,
@@ -359,6 +363,11 @@ img {
   color: var(--hero-title-color);
 }
 
+.portfolio-btn .current {
+  background-color: var(--hero-btn-color);
+  color: var(--hero-title-color);
+}
+
 .button-list {
   list-style-type: none;
   display: flex;
@@ -413,7 +422,7 @@ img {
 }
 
 .current {
-  color: var(--accent-color);
+   color: var(--hero-btn-color);
 }
 
 /* ------------footer------------ */
