@@ -363,7 +363,8 @@ img {
   color: var(--hero-title-color);
 }
 
-.portfolio-btn .current {
+.portfolio-btn .current:hover
+.portfolio-btn .current:focus {
   background-color: var(--hero-btn-color);
   color: var(--hero-title-color);
 }
